@@ -4,7 +4,7 @@ export const HeroSection = styled.section`
   position: relative;
   width: 100vw;
   height: 400px;
-  background-image: url("/src/assets/hero_fon_J-min.jpg");
+  background-image: ${(props) => `url(${props.$bg})`}; /* 👈 динамическое фоновое изображение */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,10 +32,12 @@ export const Motto = styled.h2`
   color: white;
   text-align: center;
 `;
+
 export const ContentWrapper = styled.div`
   margin: 0 auto;
   padding: 0 24px;
 `;
+
 export const OffersSection = styled.section`
   padding: 32px;
   background: #ffffff;
@@ -98,3 +100,4 @@ export const TableBody = styled.tbody`
     white-space: nowrap;
   }
 `;
+

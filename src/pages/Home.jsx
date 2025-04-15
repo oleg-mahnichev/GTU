@@ -11,13 +11,15 @@ import {
   ContentWrapper,
 } from "./HomeStyles";
 
+import heroBg from "/src/assets/hero_fon_J-min.jpg"; // 👈 импорт фонового изображения
+
 const Home = () => {
   const { t } = useTranslation("home");
   const offers = t("offers", { returnObjects: true });
 
   return (
     <>
-      <HeroSection>
+      <HeroSection $bg={heroBg}>
         <HeroOverlay />
         <Motto>{t("motto")}</Motto>
       </HeroSection>
