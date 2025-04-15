@@ -91,7 +91,7 @@ export default function Contact() {
         </ContactLink>
         <ContactLink href="viber://chat?number=%2B380671051820">
           <img src={viberIcon} alt="Viber" width="24" height="24" />
-          Viber
+          Viber (UA)
         </ContactLink>
         <ContactLink
           href="https://wa.me/380671051820"
@@ -107,15 +107,15 @@ export default function Contact() {
           rel="noopener noreferrer"
         >
           <FaTelegramPlane />
-          Telegram
+          Telegram (UA)
         </ContactLink>
         <ContactLink href="weixin://dl/chat?your_wechat_id">
           <img src={wechatIcon} alt="WeChat" width="24" height="24" />
-          WeChat
+          WeChat (UA)
         </ContactLink>
         <ContactLink href="sgnl://signal/u/+380671051820">
           <img src={signalIcon} alt="Signal" width="24" height="24" />
-          Signal
+          Signal (UA)
         </ContactLink>
 
         {/* 🇩🇪 German number */}
@@ -134,7 +134,7 @@ export default function Contact() {
 
         {/* LinkedIn */}
         <ContactLink
-          href="https://www.linkedin.com/in/your-linkedin"
+          href="https://www.linkedin.com/in/oleg-makhnichev/"
           target="_blank"
           rel="noopener noreferrer"
         >
