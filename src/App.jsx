@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/GTU">
       <AppContainer>
         <Header currentLang={language} onLangChange={handleLanguageChange} />
         <Main>
