@@ -160,7 +160,7 @@ Please change the parent <Route path="${g}"> to <Route path="${g==="/"?"*":`${g}
   position: relative;
   width: 100vw;
   height: 400px;
-  background-image: url("/src/assets/hero_fon_J-min.jpg");
+  background-image: ${e=>`url(${e.$bg})`}; /* 👈 динамическое фоновое изображение */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -239,14 +239,14 @@ Please change the parent <Route path="${g}"> to <Route path="${g==="/"?"*":`${g}
     text-align: center;
     white-space: nowrap;
   }
-`,Tw=()=>{const{t:e}=Tp("home"),t=e("offers",{returnObjects:!0});return N.jsxs(N.Fragment,{children:[N.jsxs(kw,{children:[N.jsx(Ew,{}),N.jsx(Cw,{children:e("motto")})]}),N.jsxs(Pw,{children:[N.jsx("h1",{children:e("title")}),N.jsx("p",{children:e("intro")}),N.jsx("strong",{children:e("highlight")}),N.jsx("p",{children:e("example")}),N.jsx("p",{style:{color:"red"},children:e("warning")}),N.jsx("h2",{children:e("tableTitle")}),N.jsxs(Nw,{children:[N.jsx($w,{children:N.jsx("tr",{children:e("tableHeaders",{returnObjects:!0}).map((n,r)=>N.jsx("th",{children:n},r))})}),N.jsx(Ow,{children:e("tableRows",{returnObjects:!0}).map((n,r)=>N.jsx("tr",{children:n.map((i,o)=>N.jsx("td",{dangerouslySetInnerHTML:{__html:i}},o))},r))})]}),e("tableNote")&&N.jsx("p",{style:{fontStyle:"italic",marginTop:"0.5rem"},children:e("tableNote")})]}),N.jsx(Rw,{children:t.map((n,r)=>N.jsxs(Lw,{children:[N.jsx("summary",{children:n.title}),N.jsx("p",{children:n.description})]},r))})]})};function _w(){return N.jsx("div",{children:N.jsx("h2",{className:"text-2xl font-bold mb-4",children:"Pricing for consulting services Start Basic consultation and preliminary sourcing. €299 Business Full support for supply, documentation and negotiations. €799 Enterprise Customised projects, logistics, labelling and customs clearance. from €1499"})})}function Iw(){return N.jsx("div",{className:"space-y-6",children:N.jsx("h2",{className:"text-2xl font-bold",children:"About us We are a team with experience in international procurement, logistics and contract support. Our goal is to establish effective cooperation between German companies and suppliers from Ukraine and other Eastern European countries. We offer an individual approach to each client, help to find the best partners, and provide support at all stages of cooperation: from the first contact to the delivery of goods. We work in Ukrainian, German, English and Russian. We understand local markets and mentalities, which allows us to act quickly and efficiently. Translated with DeepL.com (free version)"})})}function zw(){return N.jsx("div",{className:"space-y-6",children:N.jsx("h2",{className:"text-2xl font-bold",children:"Main content"})})}const jw=G.div`
+`,Tw="/GTU/assets/hero_fon_J-min-At9y7w6S.jpg",_w=()=>{const{t:e}=Tp("home"),t=e("offers",{returnObjects:!0});return N.jsxs(N.Fragment,{children:[N.jsxs(kw,{$bg:Tw,children:[N.jsx(Ew,{}),N.jsx(Cw,{children:e("motto")})]}),N.jsxs(Pw,{children:[N.jsx("h1",{children:e("title")}),N.jsx("p",{children:e("intro")}),N.jsx("strong",{children:e("highlight")}),N.jsx("p",{children:e("example")}),N.jsx("p",{style:{color:"red"},children:e("warning")}),N.jsx("h2",{children:e("tableTitle")}),N.jsxs(Nw,{children:[N.jsx($w,{children:N.jsx("tr",{children:e("tableHeaders",{returnObjects:!0}).map((n,r)=>N.jsx("th",{children:n},r))})}),N.jsx(Ow,{children:e("tableRows",{returnObjects:!0}).map((n,r)=>N.jsx("tr",{children:n.map((i,o)=>N.jsx("td",{dangerouslySetInnerHTML:{__html:i}},o))},r))})]}),e("tableNote")&&N.jsx("p",{style:{fontStyle:"italic",marginTop:"0.5rem"},children:e("tableNote")})]}),N.jsx(Rw,{children:t.map((n,r)=>N.jsxs(Lw,{children:[N.jsx("summary",{children:n.title}),N.jsx("p",{children:n.description})]},r))})]})};function Iw(){return N.jsx("div",{children:N.jsx("h2",{className:"text-2xl font-bold mb-4",children:"Pricing for consulting services Start Basic consultation and preliminary sourcing. €299 Business Full support for supply, documentation and negotiations. €799 Enterprise Customised projects, logistics, labelling and customs clearance. from €1499"})})}function zw(){return N.jsx("div",{className:"space-y-6",children:N.jsx("h2",{className:"text-2xl font-bold",children:"About us We are a team with experience in international procurement, logistics and contract support. Our goal is to establish effective cooperation between German companies and suppliers from Ukraine and other Eastern European countries. We offer an individual approach to each client, help to find the best partners, and provide support at all stages of cooperation: from the first contact to the delivery of goods. We work in Ukrainian, German, English and Russian. We understand local markets and mentalities, which allows us to act quickly and efficiently. Translated with DeepL.com (free version)"})})}function jw(){return N.jsx("div",{className:"space-y-6",children:N.jsx("h2",{className:"text-2xl font-bold",children:"Main content"})})}const Fw=G.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-`,Fw=G.main`
+`,Dw=G.main`
   flex: 1;
   /* padding: 15px; */
-`;function Dw(){const[e,t]=x.useState("en"),n=r=>{t(r)};return N.jsx(o0,{basename:"/GTU",children:N.jsxs(jw,{children:[N.jsx(sh,{currentLang:e,onLangChange:n}),N.jsx(Fw,{children:N.jsxs(jy,{children:[N.jsx(Sr,{path:"/",element:N.jsx(Tw,{})}),N.jsx(Sr,{path:"/pricing",element:N.jsx(_w,{})}),N.jsx(Sr,{path:"/about",element:N.jsx(Iw,{})}),N.jsx(Sr,{path:"/kontakt",element:N.jsx(zw,{})})]})}),N.jsx(xw,{})]})})}const Aw=iw`
+`;function Aw(){const[e,t]=x.useState("en"),n=r=>{t(r)};return N.jsx(o0,{basename:"/GTU",children:N.jsxs(Fw,{children:[N.jsx(sh,{currentLang:e,onLangChange:n}),N.jsx(Dw,{children:N.jsxs(jy,{children:[N.jsx(Sr,{path:"/",element:N.jsx(_w,{})}),N.jsx(Sr,{path:"/pricing",element:N.jsx(Iw,{})}),N.jsx(Sr,{path:"/about",element:N.jsx(zw,{})}),N.jsx(Sr,{path:"/kontakt",element:N.jsx(jw,{})})]})}),N.jsx(xw,{})]})})}const Mw=iw`
   /* --- CSS Reset --- */
   /* Убираем margin/padding и ставим box-sizing для всех элементов */
   *, *::before, *::after {
@@ -331,7 +331,7 @@ Please change the parent <Route path="${g}"> to <Route path="${g==="/"?"*":`${g}
       /* padding: 1rem; */
     }
   }
-`;Al.createRoot(document.getElementById("root")).render(N.jsxs(st.StrictMode,{children:[N.jsx(Aw,{}),N.jsx(Dw,{})]}));
+`;Al.createRoot(document.getElementById("root")).render(N.jsxs(st.StrictMode,{children:[N.jsx(Mw,{}),N.jsx(Aw,{})]}));
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
     __vite__mapDeps.viteFileDeps = []
