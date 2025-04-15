@@ -72,12 +72,12 @@ export const FeaturesList = styled.ul`
     position: relative;
     padding-left: 20px;
 
-    &::before {
-      content: "✔";
-      position: absolute;
-      left: 0;
-      color: ${({ $highlight }) => ($highlight ? "#0f0" : "#007bff")};
-    }
+   &::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: ${({ $highlight }) => ($highlight ? "#0f0" : "#007bff")};
+}
   }
 `;
 
