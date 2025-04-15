@@ -1,0 +1,42 @@
+// src/components/Header.jsx
+import PropTypes from "prop-types";
+import LanguageSwitcher from "./LanguageSwitcher";
+import logoImage from "../assets/logo.jpg";
+import {
+  HeaderContainer,
+  LogoLink,
+  LogoImage,
+  StyledNavLink,
+  NavLinks,
+} from "./HeaderStyles";
+
+const Header = ({ currentLang, onLangChange }) => {
+  return (
+    <HeaderContainer>
+      <LogoLink to="/">
+        <LogoImage src={logoImage} alt="Global Trade Ukraine" />
+        Global Trade Ukraine
+      </LogoLink>
+
+      <NavLinks>
+        <StyledNavLink to="/" end>
+          Home
+        </StyledNavLink>
+        <StyledNavLink to="/pricing">Pricing</StyledNavLink>
+        <StyledNavLink to="/about">About Us</StyledNavLink>
+        <StyledNavLink to="/сontact">Сontaсts</StyledNavLink>
+        <LanguageSwitcher
+          currentLang={currentLang}
+          onLangChange={onLangChange}
+        />
+      </NavLinks>
+    </HeaderContainer>
+  );
+};
+
+Header.propTypes = {
+  currentLang: PropTypes.string.isRequired,
+  onLangChange: PropTypes.func.isRequired,
+};
+
+export default Header;

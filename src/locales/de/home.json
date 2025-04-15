@@ -1,0 +1,48 @@
+{
+  "title": "🌍 Kosten­effiziente Logistik aus der Ukraine nach Europa",
+  "intro": "Sie suchen einen Lieferanten mit zuverlässiger Logistik, kurzen Lieferzeiten und wettbewerbsfähigen Preisen?",
+  "highlight": "Die Ukraine ist Ihre perfekte Wahl.",
+  "example": "Gemeinsam mit unseren Kunden importierten wir Produkte aus Ukraina, brachten Doppeltetiketten an und verkauften sie mit Aufschlag. Selbst dann war das chinesische Produkt nur zwei Cent billiger als das ukrainische.",
+  "warning": "⚠️ Während Sie noch überlegen, verdienen Ihre Wettbewerber bereits Geld.",
+  "tableTitle": "📊 Logistikvergleich",
+  "tableHeaders": [
+    "Kennzahl",
+    "Ukraine → Deutschland",
+    "China (Zug)",
+    "China (Seeweg)"
+  ],
+  "tableRows": [
+    ["Logistikkosten", "2.200 € für 87 m³", "1,5–2,5 USD/kg", "25–50 USD/m³"],
+    ["Lieferzeit", "3–7 Tage", "18–20 Tage", "30–35 Tage"],
+    ["Produktionszeit", "Bis zu 21 Tage", "14–21 Tage", "14–21 Tage"],
+    ["Gesamtvorlaufzeit", "24–28 Tage", "32–41 Tage", "44–56 Tage"],
+    [
+      "Zollabfertigung",
+      "Nur MwSt (mit EUR.1)",
+      "MwSt + Einfuhrzoll",
+      "MwSt + Einfuhrzoll"
+    ],
+    ["Flexibilität", "Hoch", "Mittel", "Gering"],
+    ["Etikettierung", "Individuell anpassbar", "Begrenzt", "Begrenzt"],
+    [
+      "Finanzieller Vorteil",
+      "Wettbewerbsfähig",
+      "Etwas günstiger",
+      "Oft teurer"
+    ]
+  ],
+  "offers": [
+    {
+      "title": "Wir bieten Produkte in Premiumqualität",
+      "description": "Unsere Produkte werden aus hochwertigen Materialien gefertigt und erfüllen höchste Qualitätsstandards."
+    },
+    {
+      "title": "Fachkundige Beratung und Support",
+      "description": "Unser Expertenteam hilft Ihnen jederzeit bei der Auswahl der passenden Lösung."
+    },
+    {
+      "title": "Innovative Lösungen für moderne Herausforderungen",
+      "description": "Wir aktualisieren unser Portfolio ständig mit innovativen Produkten und Dienstleistungen."
+    }
+  ]
+}

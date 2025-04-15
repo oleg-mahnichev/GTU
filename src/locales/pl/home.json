@@ -1,0 +1,24 @@
+{
+  "title": "🌍 Opłacalna logistyka z Ukrainy do Europy",
+  "intro": "Szukasz dostawcy z niezawodną logistyką, krótkimi terminami i konkurencyjnymi cenami?",
+  "highlight": "Ukraina to Twój idealny wybór.",
+  "example": "Wraz z naszymi klientami importowaliśmy produkty z Chin, naklejaliśmy dodatkowe etykiety i sprzedawaliśmy je z marżą. Nawet wtedy produkt z Chin był tylko o 2 eurocenty tańszy niż odpowiednik z Ukrainy.",
+  "warning": "⚠️ Gdy Ty się jeszcze zastanawiasz, konkurencja już zarabia.",
+  "tableTitle": "📊 Porównanie logistyki",
+  "tableHeaders": [
+    "Parametr",
+    "Ukraina → Niemcy",
+    "Chiny (kolej)",
+    "Chiny (morska)"
+  ],
+  "tableRows": [
+    ["Koszt logistyki", "2 200 € za 87 m³", "1,5–2,5 USD/kg", "25–50 USD/m³"],
+    ["Czas dostawy", "3–7 dni", "18–20 dni", "30–35 dni"],
+    ["Produkcja", "Do 21 dni", "14–21 dni", "14–21 dni"],
+    ["Łączny czas", "24–28 dni", "32–41 dni", "44–56 dni"],
+    ["Odprawa celna", "Tylko VAT (z EUR.1)", "VAT + cło", "VAT + cło"],
+    ["Elastyczność", "Wysoka", "Średnia", "Niska"],
+    ["Etykietowanie", "Na zamówienie", "Ograniczone", "Ograniczone"],
+    ["Korzyść finansowa", "Konkurencyjna", "Nieco tańsze", "Często droższe"]
+  ]
+}

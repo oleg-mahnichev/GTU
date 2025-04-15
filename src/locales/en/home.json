@@ -1,0 +1,49 @@
+{
+  "motto": "Your bridge between Ukrainian producers and the European market",
+  "title": "🌍 Cost-Effective Logistics from Ukraine to Europe",
+  "intro": "Looking for a supplier with reliable logistics, short delivery times, and competitive pricing?",
+  "highlight": "Ukraine is your perfect choice.",
+  "example": "Together with our clients, we imported products from Ukraine, applied duplicate labels and sold them with a markup. Even in that case, the Chinese item was only 2 euro cents cheaper than the Ukrainian equivalent.",
+  "warning": "⚠️ While you’re thinking, your competitors are already making money.",
+  "tableTitle": "📊 Logistics Comparison",
+  "tableHeaders": [
+    "Metric",
+    "Ukraine → Germany",
+    "China (Rail)",
+    "China (Sea)"
+  ],
+  "tableRows": [
+    ["Logistics cost", "€2,200 for 87 m³", "1.5–2.5 USD/kg", "25–50 USD/m³"],
+    ["Delivery time", "3–7 days", "18–20 days", "30–35 days"],
+    ["Production time", "Up to 21 days", "14–21 days", "14–21 days"],
+    ["Total lead time", "24–28 days", "32–41 days", "44–56 days"],
+    [
+      "Customs clearance",
+      "Only VAT (with EUR.1)",
+      "VAT + import duty",
+      "VAT + import duty"
+    ],
+    ["Flexibility", "High", "Medium", "Low"],
+    ["Labeling", "Customizable", "Limited", "Limited"],
+    [
+      "Financial benefit",
+      "Competitive",
+      "Slightly cheaper",
+      "Often more expensive"
+    ]
+  ],
+  "offers": [
+    {
+      "title": "We provide premium quality products",
+      "description": "Our products are made with the finest materials and adhere to the highest quality standards."
+    },
+    {
+      "title": "Expert consultations and support",
+      "description": "Our team of experts is always available to help you choose the perfect solution for your needs."
+    },
+    {
+      "title": "Innovative solutions for modern challenges",
+      "description": "We constantly update our portfolio with innovative products and services designed to overcome market challenges."
+    }
+  ]
+}
