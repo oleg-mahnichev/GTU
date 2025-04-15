@@ -1,1 +1,21 @@
-{}
+{
+  "title": "About Us",
+  "sections": [
+    {
+      "text": "My name is Oleg Makhnichev, and I am an independent procurement and supply chain consultant based in Germany. With over 20 years of international experience in procurement, logistics, and contract negotiation, I help German companies source goods from Ukraine and other Eastern European countries."
+    },
+    {
+      "text": "I work closely with a trusted team located in Ukraine who carry out tasks on my behalf with precision and care. We currently operate with local support in two key logistics hubs: Dnipro and Lviv. This allows us to not only source products efficiently, but also to provide services such as product inspection, local purchasing, and individual repackaging before export."
+    },
+    {
+      "text": "We offer full transparency and accountability. As a registered freelance service provider in Germany, I operate under German tax law. My VAT ID (Steuernummer) is: [Insert Your Tax Number Here]."
+    },
+    {
+      "text": "Our goal is to make cooperation safe and effective. We speak German, English, Ukrainian, and Russian. We understand both the Western and Eastern European business cultures, which allows us to act quickly, professionally, and with cultural sensitivity."
+    },
+    {
+      "text": "If you are looking for reliable sourcing, market research, logistics support, or help navigating communication with Ukrainian partners – I am here to support you at every step."
+    }
+  ],
+  "photoAlt": "Photo of [Your Name]"
+}

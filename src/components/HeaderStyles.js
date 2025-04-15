@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
 
   /* Адаптация для экранов 320px и меньше */
-  @media (max-width: 320px) {
+  @media (max-width: 768pxpx) {
     flex-direction: column;
     padding: 8px;
   }
@@ -25,7 +25,7 @@ export const LogoLink = styled(NavLink)`
   text-decoration: none;
   color: #fff;
 
-  @media (max-width: 320px) {
+  @media (min-width: 320px) {
     margin-bottom: 8px;
     justify-content: center;
   }
@@ -36,7 +36,7 @@ export const LogoImage = styled.img`
   width: 100px;
   margin-right: 8px;
 
-  @media (max-width: 320px) {
+  @media (min-width: 320px) {
     width: 80px;
     margin-right: 4px;
   }

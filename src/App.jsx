@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
-import Kontakt from "./pages/Kontakt";
+import Kontakt from "./pages/Contact";
 import { AppContainer, Main, AnimatedPageWrapper } from "./AppStyles";
 import { AnimatePresence } from "framer-motion";
 

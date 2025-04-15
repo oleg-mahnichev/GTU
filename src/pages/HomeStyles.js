@@ -4,7 +4,7 @@ export const HeroSection = styled.section`
   position: relative;
   width: 100vw;
   height: 400px;
-  background-image: ${(props) => `url(${props.$bg})`}; /* 👈 динамическое фоновое изображение */
+  background-image: ${(props) => `url(${props.$bg})`};
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,6 +66,14 @@ export const OfferItem = styled.details`
   }
 `;
 
+// ✅ Обёртка для адаптивности таблицы
+export const TableWrapper = styled.div`
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+`;
+
+// ✅ Стили для таблицы с адаптацией
 export const StyledTable = styled.table`
   width: 100%;
   border-collapse: collapse;
@@ -74,6 +82,7 @@ export const StyledTable = styled.table`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
   overflow: hidden;
+  table-layout: fixed; /* 👈 фиксированная ширина колонок */
 `;
 
 export const TableHeader = styled.thead`
@@ -84,7 +93,18 @@ export const TableHeader = styled.thead`
     border: 1px solid #ddd;
     font-weight: bold;
     text-align: center;
-    white-space: nowrap;
+    word-break: break-word;
+    white-space: normal;
+    width: 20%; /* 👈 ты можешь варьировать ширины, например 30% 20% 20% 30% */
+
+    @media (max-width: 768px) {
+      padding: 10px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 12px;
+    }
   }
 `;
 
@@ -97,7 +117,17 @@ export const TableBody = styled.tbody`
     padding: 14px;
     border: 1px solid #ddd;
     text-align: center;
-    white-space: nowrap;
+    word-break: break-word;
+    white-space: normal;
+    width: 20%; /* 👈 соответствовать th */
+
+    @media (max-width: 768px) {
+      padding: 10px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 12px;
+    }
   }
 `;
-

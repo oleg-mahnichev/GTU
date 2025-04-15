@@ -9,9 +9,10 @@ import {
   TableHeader,
   TableBody,
   ContentWrapper,
+  TableWrapper, // 👈 добавили обёртку
 } from "./HomeStyles";
 
-import heroBg from "/src/assets/hero_fon1_J-min.jpg"; // 👈 импорт фонового изображения
+import heroBg from "/src/assets/hero_fon1_J-min.jpg";
 
 const Home = () => {
   const { t } = useTranslation("home");
@@ -32,24 +33,26 @@ const Home = () => {
         <p style={{ color: "red" }}>{t("warning")}</p>
 
         <h2>{t("tableTitle")}</h2>
-        <StyledTable>
-          <TableHeader>
-            <tr>
-              {t("tableHeaders", { returnObjects: true }).map((header, i) => (
-                <th key={i}>{header}</th>
-              ))}
-            </tr>
-          </TableHeader>
-          <TableBody>
-            {t("tableRows", { returnObjects: true }).map((row, i) => (
-              <tr key={i}>
-                {row.map((cell, j) => (
-                  <td key={j} dangerouslySetInnerHTML={{ __html: cell }} />
+        <TableWrapper>
+          <StyledTable>
+            <TableHeader>
+              <tr>
+                {t("tableHeaders", { returnObjects: true }).map((header, i) => (
+                  <th key={i}>{header}</th>
                 ))}
               </tr>
-            ))}
-          </TableBody>
-        </StyledTable>
+            </TableHeader>
+            <TableBody>
+              {t("tableRows", { returnObjects: true }).map((row, i) => (
+                <tr key={i}>
+                  {row.map((cell, j) => (
+                    <td key={j} dangerouslySetInnerHTML={{ __html: cell }} />
+                  ))}
+                </tr>
+              ))}
+            </TableBody>
+          </StyledTable>
+        </TableWrapper>
 
         {t("tableNote") && (
           <p style={{ fontStyle: "italic", marginTop: "0.5rem" }}>

@@ -4,11 +4,11 @@ import { initReactI18next } from "react-i18next";
 
 // Импортируем переводы для английского (аналогично для других языков можно делать импорты)
 import headerEn from "../src/locales/en/header.json";
-import footerEn from "../src/locales/en/footer.json";
 import homeEn from "../src/locales/en/home.json";
 import aboutEn from "../src/locales/en/about.json";
 import pricingEn from "../src/locales/en/pricing.json";
-
+import contactEn from "../src/locales/en/contact.json";
+import footerEn from "../src/locales/en/footer.json";
 
 import headerDe from "../src/locales/de/header.json";
 import footerDe from "../src/locales/de/footer.json";
@@ -50,10 +50,11 @@ import aboutRu from "../src/locales/ru/about.json";
 const resources = {
     en: {
         header: headerEn,
-        footer: footerEn,
         home: homeEn,
         about: aboutEn,
-        pricing: pricingEn
+        pricing: pricingEn,
+        contact: contactEn,
+        footer: footerEn,
     },
     de: {
         header: headerDe,
@@ -102,7 +103,7 @@ const resources = {
 i18n.use(initReactI18next).init({
     resources,
     // Перечисляем namespace, соответствующие каждому разделу
-    ns: ["header", "footer", "home", "about", "pricing"],
+    ns: ["header", "footer", "home", "about", "pricing", "contact"],
     defaultNS: "header", // можно задать дефолтный namespace для тех случаев, когда namespace не указан явно
     lng: "en",           // базовый язык – английский
     fallbackLng: "en",   // язык по умолчанию, если перевод отсутствует

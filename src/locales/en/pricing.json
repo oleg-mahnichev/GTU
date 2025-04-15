@@ -17,7 +17,7 @@
     },
     {
       "name": "Pro",
-      "price": "€49 / month",
+      "price": "€299 / month",
       "description": "Ideal for small businesses or individual entrepreneurs",
       "features": [
         "Supplier sourcing from Ukraine",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Business",
-      "price": "€149 / month",
+      "price": "€699 / month",
       "description": "For growing companies working with larger volumes",
       "features": [
         "Dedicated project manager",
