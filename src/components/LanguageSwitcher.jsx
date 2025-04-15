@@ -16,6 +16,7 @@ import {
 const languages = [
   { code: "de", label: "DE", countryCode: "DE" },
   { code: "ua", label: "UA", countryCode: "UA" },
+  { code: "fr", label: "FR", countryCode: "FR" },
   { code: "en", label: "EN", countryCode: "GB" },
   { code: "pl", label: "PL", countryCode: "PL" },
   { code: "es", label: "ES", countryCode: "ES" },

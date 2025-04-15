@@ -1,0 +1,55 @@
+{
+  "motto": "Votre pont entre les producteurs ukrainiens et le marché européen",
+  "title": "🌍 Vous recherchez un partenaire fiable pour une coopération à long terme avec des fabricants ukrainiens ? Nous combinons des produits de haute qualité avec une logistique flexible et un accompagnement complet.",
+  "intro": "Nous aidons à construire des partenariats durables avec des fabricants ukrainiens — rapidement, de manière avantageuse et sans risques inutiles.",
+  "highlight": "L’Ukraine est votre choix idéal.",
+  "example": "Avec nos clients, nous avons importé des marchandises d’Ukraine, apposé des étiquettes de remplacement et vendu avec une marge. Même ainsi, le produit chinois n’était que 2 centimes d’euro moins cher que son équivalent ukrainien.",
+  "warning": "⚠️ Pendant que vous réfléchissez, vos concurrents gagnent déjà de l'argent.",
+  "tableTitle": "📊 Comparaison logistique",
+  "tableHeaders": [
+    "Indicateur",
+    "Ukraine → Allemagne",
+    "Chine (rail)",
+    "Chine (mer)"
+  ],
+  "tableRows": [
+    [
+      "Coût logistique",
+      "2 200 € pour 87 m³<br>≈ 25 €/m³<br>≈ 0,1 €/kg",
+      "1,5–2,5 USD/kg<br>≈ 150–250 €/m³*",
+      "40 €/m³<br>≈ 0,025–0,05 USD/kg*"
+    ],
+    ["Délai de livraison", "3–7 jours", "18–20 jours", "30–35 jours"],
+    ["Temps de production", "Jusqu'à 21 jours", "14–21 jours", "14–21 jours"],
+    ["Durée totale", "24–28 jours", "32–41 jours", "44–56 jours"],
+    [
+      "Douane",
+      "TVA uniquement (avec EUR.1)",
+      "TVA + droits de douane",
+      "TVA + droits de douane"
+    ],
+    ["Flexibilité", "Élevée", "Moyenne", "Faible"],
+    ["Étiquetage", "Personnalisé", "Limité", "Limité"],
+    [
+      "Avantage financier",
+      "Compétitif",
+      "Avantageux pour de gros volumes",
+      "Souvent trompeur : tarif bas mais frais supplémentaires élevés"
+    ]
+  ],
+  "tableNote": "* Estimé en fonction d'une densité moyenne de chargement.",
+  "offers": [
+    {
+      "title": "Excellent rapport qualité-prix",
+      "description": "Nos produits sont fabriqués avec les meilleurs matériaux et répondent aux normes de qualité les plus élevées."
+    },
+    {
+      "title": "Conseils et accompagnement d'experts",
+      "description": "Notre équipe d'experts est toujours prête à vous aider à trouver la meilleure solution."
+    },
+    {
+      "title": "Des solutions innovantes pour les défis actuels",
+      "description": "Nous mettons continuellement à jour notre portefeuille avec des produits et services innovants."
+    }
+  ]
+}

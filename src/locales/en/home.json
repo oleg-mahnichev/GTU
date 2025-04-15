@@ -1,10 +1,10 @@
 {
   "motto": "Your bridge between Ukrainian producers and the European market",
-  "title": "🌍 Cost-Effective Logistics from Ukraine to Europe",
-  "intro": "Looking for a supplier with reliable logistics, short delivery times, and competitive pricing?",
-  "highlight": "Ukraine is your perfect choice.",
-  "example": "Together with our clients, we imported products from Ukraine, applied duplicate labels and sold them with a markup. Even in that case, the Chinese item was only 2 euro cents cheaper than the Ukrainian equivalent.",
-  "warning": "⚠️ While you’re thinking, your competitors are already making money.",
+  "title": "🌍 Looking for a reliable partner for long-term cooperation with Ukrainian manufacturers? We combine high-quality products with flexible logistics and full support.",
+  "intro": "We help build long-term partnerships with Ukrainian manufacturers — quickly, profitably, and without unnecessary risks.",
+  "highlight": "Ukraine is your ideal choice.",
+  "example": "Together with our clients, we imported goods from Ukraine, relabeled them, and sold with a markup. Even then, the Chinese product was only 2 eurocents cheaper than the Ukrainian one.",
+  "warning": "⚠️ While you are thinking — your competitors are already earning.",
   "tableTitle": "📊 Logistics Comparison",
   "tableHeaders": [
     "Metric",
@@ -13,37 +13,38 @@
     "China (Sea)"
   ],
   "tableRows": [
-    ["Logistics cost", "€2,200 for 87 m³", "1.5–2.5 USD/kg", "25–50 USD/m³"],
-    ["Delivery time", "3–7 days", "18–20 days", "30–35 days"],
-    ["Production time", "Up to 21 days", "14–21 days", "14–21 days"],
-    ["Total lead time", "24–28 days", "32–41 days", "44–56 days"],
     [
-      "Customs clearance",
-      "Only VAT (with EUR.1)",
-      "VAT + import duty",
-      "VAT + import duty"
+      "Logistics Cost",
+      "€2,200 for 87 m³<br>≈ €25/m³<br>≈ €0.1/kg",
+      "1.5–2.5 USD/kg<br>≈ €150–250/m³*",
+      "€40/m³<br>≈ 0.025–0.05 USD/kg*"
     ],
+    ["Delivery Time", "3–7 days", "18–20 days", "30–35 days"],
+    ["Production Time", "Up to 21 days", "14–21 days", "14–21 days"],
+    ["Total Duration", "24–28 days", "32–41 days", "44–56 days"],
+    ["Customs", "Only VAT (with EUR.1)", "VAT + duty", "VAT + duty"],
     ["Flexibility", "High", "Medium", "Low"],
-    ["Labeling", "Customizable", "Limited", "Limited"],
+    ["Labeling", "Custom", "Limited", "Limited"],
     [
-      "Financial benefit",
+      "Financial Benefit",
       "Competitive",
-      "Slightly cheaper",
-      "Often more expensive"
+      "Advantageous at large volumes",
+      "Often misleading: low rate but high extra costs"
     ]
   ],
+  "tableNote": "* Estimated based on average cargo density.",
   "offers": [
     {
-      "title": "We provide premium quality products",
-      "description": "Our products are made with the finest materials and adhere to the highest quality standards."
+      "title": "Excellent price-quality ratio",
+      "description": "Our products are made from the best materials and meet the highest quality standards."
     },
     {
-      "title": "Expert consultations and support",
-      "description": "Our team of experts is always available to help you choose the perfect solution for your needs."
+      "title": "Expert advice and support",
+      "description": "Our expert team is always ready to help you find the best solution."
     },
     {
       "title": "Innovative solutions for modern challenges",
-      "description": "We constantly update our portfolio with innovative products and services designed to overcome market challenges."
+      "description": "We constantly update our portfolio with innovative products and services."
     }
   ]
 }

@@ -1,24 +1,49 @@
 {
-  "title": "🌍 Opłacalna logistyka z Ukrainy do Europy",
-  "intro": "Szukasz dostawcy z niezawodną logistyką, krótkimi terminami i konkurencyjnymi cenami?",
+  "title": "🌍 Szukasz zaufanego partnera do długoterminowej współpracy z ukraińskimi producentami? Łączymy wysoką jakość produktów z elastyczną logistyką i kompleksowym wsparciem.",
+  "intro": "Pomagamy budować długofalowe partnerstwa z ukraińskimi producentami — szybko, korzystnie i bez zbędnego ryzyka.",
   "highlight": "Ukraina to Twój idealny wybór.",
-  "example": "Wraz z naszymi klientami importowaliśmy produkty z Chin, naklejaliśmy dodatkowe etykiety i sprzedawaliśmy je z marżą. Nawet wtedy produkt z Chin był tylko o 2 eurocenty tańszy niż odpowiednik z Ukrainy.",
-  "warning": "⚠️ Gdy Ty się jeszcze zastanawiasz, konkurencja już zarabia.",
+  "example": "Razem z naszymi klientami importowaliśmy towary z Ukrainy, naklejaliśmy nowe etykiety i sprzedawaliśmy z marżą. Nawet w takim przypadku chiński produkt był tylko o 2 eurocenty tańszy niż ukraiński odpowiednik.",
+  "warning": "⚠️ Podczas gdy Ty się zastanawiasz — konkurencja już zarabia.",
   "tableTitle": "📊 Porównanie logistyki",
   "tableHeaders": [
-    "Parametr",
+    "Wskaźnik",
     "Ukraina → Niemcy",
     "Chiny (kolej)",
-    "Chiny (morska)"
+    "Chiny (morzem)"
   ],
   "tableRows": [
-    ["Koszt logistyki", "2 200 € za 87 m³", "1,5–2,5 USD/kg", "25–50 USD/m³"],
+    [
+      "Koszt logistyki",
+      "2 200 € za 87 m³<br>≈ 25 €/m³<br>≈ 0,1 €/kg",
+      "1,5–2,5 USD/kg<br>≈ 150–250 €/m³*",
+      "40 €/m³<br>≈ 0,025–0,05 USD/kg*"
+    ],
     ["Czas dostawy", "3–7 dni", "18–20 dni", "30–35 dni"],
-    ["Produkcja", "Do 21 dni", "14–21 dni", "14–21 dni"],
-    ["Łączny czas", "24–28 dni", "32–41 dni", "44–56 dni"],
+    ["Czas produkcji", "Do 21 dni", "14–21 dni", "14–21 dni"],
+    ["Całkowity czas", "24–28 dni", "32–41 dni", "44–56 dni"],
     ["Odprawa celna", "Tylko VAT (z EUR.1)", "VAT + cło", "VAT + cło"],
     ["Elastyczność", "Wysoka", "Średnia", "Niska"],
-    ["Etykietowanie", "Na zamówienie", "Ograniczone", "Ograniczone"],
-    ["Korzyść finansowa", "Konkurencyjna", "Nieco tańsze", "Często droższe"]
+    ["Oznakowanie", "Indywidualne", "Ograniczone", "Ograniczone"],
+    [
+      "Korzyść finansowa",
+      "Konkurencyjna",
+      "Opłacalna przy dużych ilościach",
+      "Często złudna: niski koszt, ale wysokie koszty dodatkowe"
+    ]
+  ],
+  "tableNote": "* Oszacowano przy średniej gęstości ładunku.",
+  "offers": [
+    {
+      "title": "Świetny stosunek jakości do ceny",
+      "description": "Nasze produkty są wykonane z najlepszych materiałów i spełniają najwyższe standardy jakości."
+    },
+    {
+      "title": "Doradztwo i wsparcie ekspertów",
+      "description": "Nasz zespół ekspertów chętnie pomoże w wyborze najlepszego rozwiązania."
+    },
+    {
+      "title": "Innowacyjne rozwiązania na nowe czasy",
+      "description": "Nieustannie aktualizujemy nasze portfolio o nowoczesne produkty i usługi."
+    }
   ]
 }

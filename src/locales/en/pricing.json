@@ -1,0 +1,61 @@
+{
+  "title": "Pricing Plans",
+  "subtitle": "Choose the level of support that fits your business. Not sure? Contact us.",
+  "plans": [
+    {
+      "name": "Starter",
+      "price": "Free",
+      "description": "Perfect for getting started and learning the basics",
+      "features": [
+        "Basic consultation (up to 30 minutes)",
+        "Access to demo supply cases",
+        "Answers to questions via email",
+        "Informational support"
+      ],
+      "button": "Get Started",
+      "highlight": false
+    },
+    {
+      "name": "Pro",
+      "price": "€49 / month",
+      "description": "Ideal for small businesses or individual entrepreneurs",
+      "features": [
+        "Supplier sourcing from Ukraine",
+        "Reliability checks",
+        "Deal support",
+        "Basic logistics",
+        "Translation and partner communication"
+      ],
+      "button": "Subscribe",
+      "highlight": false
+    },
+    {
+      "name": "Business",
+      "price": "€149 / month",
+      "description": "For growing companies working with larger volumes",
+      "features": [
+        "Dedicated project manager",
+        "Market research tailored to your product",
+        "Competitor pricing and terms analysis",
+        "Labeling, packaging, and export preparation",
+        "Full logistics and transaction support"
+      ],
+      "button": "Activate",
+      "highlight": true
+    },
+    {
+      "name": "Enterprise",
+      "price": "On request",
+      "description": "Tailored solution for large-scale projects",
+      "features": [
+        "Exclusive strategy and approach",
+        "Full confidentiality and NDA",
+        "In-depth supply chain analysis",
+        "Integration with your ERP/CRM system",
+        "Flexible terms and premium support"
+      ],
+      "button": "Contact Us",
+      "highlight": false
+    }
+  ]
+}

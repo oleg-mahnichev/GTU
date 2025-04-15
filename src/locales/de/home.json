@@ -1,48 +1,49 @@
 {
-  "title": "🌍 Kosten­effiziente Logistik aus der Ukraine nach Europa",
-  "intro": "Sie suchen einen Lieferanten mit zuverlässiger Logistik, kurzen Lieferzeiten und wettbewerbsfähigen Preisen?",
-  "highlight": "Die Ukraine ist Ihre perfekte Wahl.",
-  "example": "Gemeinsam mit unseren Kunden importierten wir Produkte aus Ukraina, brachten Doppeltetiketten an und verkauften sie mit Aufschlag. Selbst dann war das chinesische Produkt nur zwei Cent billiger als das ukrainische.",
-  "warning": "⚠️ Während Sie noch überlegen, verdienen Ihre Wettbewerber bereits Geld.",
+  "title": "🌍 Suchen Sie einen zuverlässigen Partner für eine langfristige Zusammenarbeit mit ukrainischen Herstellern? Wir kombinieren hochwertige Produkte mit flexibler Logistik und umfassender Unterstützung.",
+  "intro": "Wir helfen dabei, langfristige Partnerschaften mit ukrainischen Herstellern aufzubauen – schnell, vorteilhaft und risikofrei.",
+  "highlight": "Die Ukraine ist Ihre ideale Wahl.",
+  "example": "Gemeinsam mit unseren Kunden haben wir Waren aus der Ukraine importiert, Etiketten dupliziert und mit Aufschlag verkauft. Selbst in diesem Fall war das chinesische Produkt nur um 2 Eurocent günstiger als das ukrainische.",
+  "warning": "⚠️ Während Sie noch überlegen, verdienen Ihre Wettbewerber bereits.",
   "tableTitle": "📊 Logistikvergleich",
   "tableHeaders": [
     "Kennzahl",
     "Ukraine → Deutschland",
-    "China (Zug)",
+    "China (Bahn)",
     "China (Seeweg)"
   ],
   "tableRows": [
-    ["Logistikkosten", "2.200 € für 87 m³", "1,5–2,5 USD/kg", "25–50 USD/m³"],
+    [
+      "Logistikkosten",
+      "2.200 € für 87 m³<br>≈ 25 €/m³<br>≈ 0,1 €/kg",
+      "1,5–2,5 USD/kg<br>≈ 150–250 €/m³*",
+      "40 €/m³<br>≈ 0,025–0,05 USD/kg*"
+    ],
     ["Lieferzeit", "3–7 Tage", "18–20 Tage", "30–35 Tage"],
     ["Produktionszeit", "Bis zu 21 Tage", "14–21 Tage", "14–21 Tage"],
-    ["Gesamtvorlaufzeit", "24–28 Tage", "32–41 Tage", "44–56 Tage"],
+    ["Gesamtdauer", "24–28 Tage", "32–41 Tage", "44–56 Tage"],
+    ["Zoll", "Nur MwSt (mit EUR.1)", "MwSt + Zoll", "MwSt + Zoll"],
+    ["Flexibilität", "Hoch", "Mittel", "Niedrig"],
+    ["Kennzeichnung", "Individuell", "Begrenzt", "Begrenzt"],
     [
-      "Zollabfertigung",
-      "Nur MwSt (mit EUR.1)",
-      "MwSt + Einfuhrzoll",
-      "MwSt + Einfuhrzoll"
-    ],
-    ["Flexibilität", "Hoch", "Mittel", "Gering"],
-    ["Etikettierung", "Individuell anpassbar", "Begrenzt", "Begrenzt"],
-    [
-      "Finanzieller Vorteil",
+      "Wirtschaftlichkeit",
       "Wettbewerbsfähig",
-      "Etwas günstiger",
-      "Oft teurer"
+      "Vorteilhaft bei großen Mengen",
+      "Oft trügerisch: niedrige Tarife, aber hohe Zusatzkosten"
     ]
   ],
+  "tableNote": "* Geschätzt bei durchschnittlicher Ladungsdichte.",
   "offers": [
     {
-      "title": "Wir bieten Produkte in Premiumqualität",
-      "description": "Unsere Produkte werden aus hochwertigen Materialien gefertigt und erfüllen höchste Qualitätsstandards."
+      "title": "Hervorragendes Preis-Leistungs-Verhältnis",
+      "description": "Unsere Produkte werden aus den besten Materialien hergestellt und erfüllen höchste Qualitätsstandards."
     },
     {
-      "title": "Fachkundige Beratung und Support",
-      "description": "Unser Expertenteam hilft Ihnen jederzeit bei der Auswahl der passenden Lösung."
+      "title": "Beratung und Expertenunterstützung",
+      "description": "Unser Expertenteam hilft Ihnen gerne, die optimale Lösung zu finden."
     },
     {
       "title": "Innovative Lösungen für moderne Herausforderungen",
-      "description": "Wir aktualisieren unser Portfolio ständig mit innovativen Produkten und Dienstleistungen."
+      "description": "Unser Portfolio wird kontinuierlich mit innovativen Produkten und Dienstleistungen erweitert."
     }
   ]
 }

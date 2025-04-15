@@ -1,7 +1,49 @@
 {
-  "title": "🌍 Logistica conveniente dall'Ucraina all'Europa",
-  "intro": "Cerchi un fornitore con logistica affidabile, tempi rapidi e prezzi competitivi?",
-  "highlight": "L'Ucraina è la scelta perfetta per te.",
+  "title": "🌍 Cerchi un partner affidabile per una collaborazione a lungo termine con produttori ucraini? Combiniamo prodotti di alta qualità con logistica flessibile e supporto completo.",
+  "intro": "Aiutiamo a costruire partnership durature con produttori ucraini — in modo rapido, vantaggioso e senza rischi inutili.",
+  "highlight": "L'Ucraina è la scelta ideale.",
+  "example": "Insieme ai nostri clienti, abbiamo importato prodotti dall'Ucraina, applicato etichette duplicate e venduto con margine. Anche in quel caso, il prodotto cinese era solo 2 centesimi più economico dell'equivalente ucraino.",
+  "warning": "⚠️ Mentre ci pensi — i tuoi concorrenti stanno già guadagnando.",
   "tableTitle": "📊 Confronto logistico",
-  "warning": "⚠️ Mentre tu ci pensi, i tuoi concorrenti stanno già guadagnando."
+  "tableHeaders": [
+    "Parametro",
+    "Ucraina → Germania",
+    "Cina (ferrovia)",
+    "Cina (via mare)"
+  ],
+  "tableRows": [
+    [
+      "Costo logistico",
+      "2.200 € per 87 m³<br>≈ 25 €/m³<br>≈ 0,1 €/kg",
+      "1,5–2,5 USD/kg<br>≈ 150–250 €/m³*",
+      "40 €/m³<br>≈ 0,025–0,05 USD/kg*"
+    ],
+    ["Tempo di consegna", "3–7 giorni", "18–20 giorni", "30–35 giorni"],
+    ["Tempo di produzione", "Fino a 21 giorni", "14–21 giorni", "14–21 giorni"],
+    ["Durata totale", "24–28 giorni", "32–41 giorni", "44–56 giorni"],
+    ["Sdoganamento", "Solo IVA (con EUR.1)", "IVA + dazi", "IVA + dazi"],
+    ["Flessibilità", "Alta", "Media", "Bassa"],
+    ["Etichettatura", "Personalizzata", "Limitata", "Limitata"],
+    [
+      "Vantaggio economico",
+      "Competitivo",
+      "Conveniente su grandi volumi",
+      "Spesso ingannevole: tariffa bassa ma costi aggiuntivi elevati"
+    ]
+  ],
+  "tableNote": "* Stima basata su densità media del carico.",
+  "offers": [
+    {
+      "title": "Ottimo rapporto qualità-prezzo",
+      "description": "I nostri prodotti sono realizzati con i migliori materiali e rispettano i più alti standard di qualità."
+    },
+    {
+      "title": "Consulenza e supporto esperti",
+      "description": "Il nostro team di esperti è sempre pronto ad aiutarti nella scelta della soluzione ottimale."
+    },
+    {
+      "title": "Soluzioni innovative per le sfide moderne",
+      "description": "Aggiorniamo costantemente il nostro portfolio con prodotti e servizi innovativi."
+    }
+  ]
 }

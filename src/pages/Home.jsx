@@ -11,7 +11,7 @@ import {
   ContentWrapper,
 } from "./HomeStyles";
 
-import heroBg from "/src/assets/hero_fon_J-min.jpg"; // 👈 импорт фонового изображения
+import heroBg from "/src/assets/hero_fon1_J-min.jpg"; // 👈 импорт фонового изображения
 
 const Home = () => {
   const { t } = useTranslation("home");

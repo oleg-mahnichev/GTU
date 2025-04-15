@@ -1,7 +1,54 @@
 {
-  "title": "🌍 Logística rentable desde Ucrania hacia Europa",
-  "intro": "¿Busca un proveedor con logística confiable, tiempos cortos y precios competitivos?",
-  "highlight": "Ucrania es su elección perfecta.",
-  "tableTitle": "📊 Comparación de logística",
-  "warning": "⚠️ Mientras usted lo piensa, sus competidores ya están ganando dinero."
+  "title": "🌍 ¿Buscas un socio fiable para una colaboración a largo plazo con fabricantes ucranianos? Combinamos productos de alta calidad con logística flexible y apoyo integral.",
+  "intro": "Ayudamos a construir asociaciones duraderas con fabricantes ucranianos — de forma rápida, rentable y sin riesgos innecesarios.",
+  "highlight": "Ucrania es su mejor elección.",
+  "example": "Junto con nuestros clientes, importamos productos desde Ucrania, reetiquetamos y vendimos con margen. Incluso así, el producto chino solo fue 2 céntimos más barato que el equivalente ucraniano.",
+  "warning": "⚠️ Mientras lo piensas — tus competidores ya están ganando dinero.",
+  "tableTitle": "📊 Comparación logística",
+  "tableHeaders": [
+    "Indicador",
+    "Ucrania → Alemania",
+    "China (ferrocarril)",
+    "China (marítimo)"
+  ],
+  "tableRows": [
+    [
+      "Coste logístico",
+      "2.200 € por 87 m³<br>≈ 25 €/m³<br>≈ 0,1 €/kg",
+      "1,5–2,5 USD/kg<br>≈ 150–250 €/m³*",
+      "40 €/m³<br>≈ 0,025–0,05 USD/kg*"
+    ],
+    ["Tiempo de entrega", "3–7 días", "18–20 días", "30–35 días"],
+    ["Tiempo de producción", "Hasta 21 días", "14–21 días", "14–21 días"],
+    ["Duración total", "24–28 días", "32–41 días", "44–56 días"],
+    [
+      "Despacho aduanero",
+      "Solo IVA (con EUR.1)",
+      "IVA + arancel",
+      "IVA + arancel"
+    ],
+    ["Flexibilidad", "Alta", "Media", "Baja"],
+    ["Etiquetado", "Personalizado", "Limitado", "Limitado"],
+    [
+      "Beneficio económico",
+      "Competitivo",
+      "Rentable en grandes volúmenes",
+      "A menudo engañoso: tarifa baja pero costes extra elevados"
+    ]
+  ],
+  "tableNote": "* Estimado según la densidad media de carga.",
+  "offers": [
+    {
+      "title": "Excelente relación calidad-precio",
+      "description": "Nuestros productos están fabricados con los mejores materiales y cumplen con los más altos estándares de calidad."
+    },
+    {
+      "title": "Asesoramiento y apoyo de expertos",
+      "description": "Nuestro equipo está siempre dispuesto a ayudarte a encontrar la mejor solución."
+    },
+    {
+      "title": "Soluciones innovadoras para los desafíos actuales",
+      "description": "Actualizamos continuamente nuestra cartera con productos y servicios innovadores."
+    }
+  ]
 }

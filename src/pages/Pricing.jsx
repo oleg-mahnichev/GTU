@@ -1,12 +1,47 @@
-export default function Pricing() {
+// Pricing.jsx
+import { useTranslation } from "react-i18next";
+import {
+  PricingWrapper,
+  Title,
+  Subtitle,
+  CardsContainer,
+  Card,
+  PlanName,
+  Price,
+  Description,
+  FeaturesList,
+  ActionButton,
+} from "./PricingStyles";
+
+const Pricing = () => {
+  const { t } = useTranslation("pricing");
+  const plans = t("plans", { returnObjects: true });
+
   return (
-    <div>
-      <h2 className="text-2xl font-bold mb-4">
-        Pricing for consulting services Start Basic consultation and preliminary
-        sourcing. €299 Business Full support for supply, documentation and
-        negotiations. €799 Enterprise Customised projects, logistics, labelling
-        and customs clearance. from €1499
-      </h2>
-    </div>
+    <PricingWrapper>
+      <Title>{t("title")}</Title>
+      <Subtitle>{t("subtitle")}</Subtitle>
+      <CardsContainer>
+        {plans.map((plan, index) => (
+          <Card key={index} highlight={plan.highlight}>
+            <div>
+              <PlanName>{plan.name}</PlanName>
+              <Price>{plan.price}</Price>
+              <Description>{plan.description}</Description>
+              <FeaturesList $highlight={plan.highlight}>
+                {plan.features.map((feature, i) => (
+                  <li key={i}>{feature}</li>
+                ))}
+              </FeaturesList>
+            </div>
+            <ActionButton highlight={plan.highlight}>
+              {plan.button}
+            </ActionButton>
+          </Card>
+        ))}
+      </CardsContainer>
+    </PricingWrapper>
   );
-}
+};
+
+export default Pricing;
