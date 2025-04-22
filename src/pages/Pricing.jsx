@@ -1,7 +1,6 @@
-// Pricing.jsx
 import { useTranslation } from "react-i18next";
 import {
-  PricingWrapper,
+  PricingWrapper as Wrapper,
   Title,
   Subtitle,
   CardsContainer,
@@ -12,36 +11,46 @@ import {
   FeaturesList,
   ActionButton,
 } from "./PricingStyles";
+import { motion, AnimatePresence } from "framer-motion";
 
-const Pricing = () => {
-  const { t } = useTranslation("pricing");
+export default function Pricing() {
+  const { t, i18n } = useTranslation("pricing");
   const plans = t("plans", { returnObjects: true });
 
   return (
-    <PricingWrapper>
+    <Wrapper>
       <Title>{t("title")}</Title>
       <Subtitle>{t("subtitle")}</Subtitle>
-      <CardsContainer>
-        {plans.map((plan, index) => (
-          <Card key={index} highlight={plan.highlight}>
-            <div>
-              <PlanName>{plan.name}</PlanName>
-              <Price>{plan.price}</Price>
-              <Description>{plan.description}</Description>
-              <FeaturesList $highlight={plan.highlight}>
-                {plan.features.map((feature, i) => (
-                  <li key={i}>{feature}</li>
-                ))}
-              </FeaturesList>
-            </div>
-            <ActionButton highlight={plan.highlight}>
-              {plan.button}
-            </ActionButton>
-          </Card>
-        ))}
-      </CardsContainer>
-    </PricingWrapper>
-  );
-};
 
-export default Pricing;
+      <CardsContainer>
+        <AnimatePresence mode="wait">
+          {plans.map((plan) => (
+            <motion.div
+              key={`${i18n.language}-${plan.name}`}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <Card $highlight={plan.highlight}>
+                <div>
+                  <PlanName>{plan.name}</PlanName>
+                  <Price>{plan.price}</Price>
+                  <Description>{plan.description}</Description>
+                  <FeaturesList $highlight={plan.highlight}>
+                    {plan.features.map((feature, i) => (
+                      <li key={i}>{feature}</li>
+                    ))}
+                  </FeaturesList>
+                </div>
+                <ActionButton $highlight={plan.highlight}>
+                  {plan.button}
+                </ActionButton>
+              </Card>
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </CardsContainer>
+    </Wrapper>
+  );
+}

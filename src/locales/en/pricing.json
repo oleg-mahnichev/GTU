@@ -1,58 +1,59 @@
 {
   "title": "Pricing Plans",
-  "subtitle": "Choose the level of support that fits your business. Not sure? Contact us.",
+  "subtitle": "Choose the level of support that fits your business. Custom solutions are available on request.",
   "plans": [
     {
-      "name": "Starter",
-      "price": "Free",
-      "description": "Perfect for getting started and learning the basics",
+      "name": "Start",
+      "price": "€99 / month",
+      "description": "For solo entrepreneurs and startups",
       "features": [
-        "Basic consultation (up to 30 minutes)",
-        "Access to demo supply cases",
-        "Answers to questions via email",
-        "Informational support"
+        "1 basic consultation (up to 30 minutes)",
+        "Email support and answers to questions",
+        "1 recommended supplier per month (without verification)",
+        "Informational assistance with logistics"
       ],
       "button": "Get Started",
       "highlight": false
     },
     {
       "name": "Pro",
-      "price": "€299 / month",
-      "description": "Ideal for small businesses or individual entrepreneurs",
+      "price": "€399 / month",
+      "description": "For small companies starting to work with Ukraine",
       "features": [
-        "Supplier sourcing from Ukraine",
-        "Reliability checks",
-        "Deal support",
-        "Basic logistics",
-        "Translation and partner communication"
+        "Up to 3 suppliers with basic verification",
+        "Translation and communication with Ukrainian side",
+        "Deal support and negotiation assistance",
+        "Help with logistics and documentation",
+        "Up to 5 hours of consulting"
       ],
       "button": "Subscribe",
-      "highlight": false
-    },
-    {
-      "name": "Business",
-      "price": "€699 / month",
-      "description": "For growing companies working with larger volumes",
-      "features": [
-        "Dedicated project manager",
-        "Market research tailored to your product",
-        "Competitor pricing and terms analysis",
-        "Labeling, packaging, and export preparation",
-        "Full logistics and transaction support"
-      ],
-      "button": "Activate",
       "highlight": true
     },
     {
-      "name": "Enterprise",
-      "price": "On request",
-      "description": "Tailored solution for large-scale projects",
+      "name": "Business",
+      "price": "€799 / month",
+      "description": "For companies requiring in-depth support and project assistance",
       "features": [
-        "Exclusive strategy and approach",
-        "Full confidentiality and NDA",
-        "In-depth supply chain analysis",
-        "Integration with your ERP/CRM system",
-        "Flexible terms and premium support"
+        "Up to 5 verified suppliers with reports",
+        "Full-cycle deal support",
+        "Dedicated project manager",
+        "Market research tailored to your product",
+        "Logistics and packaging assistance",
+        "Up to 10 hours of consulting"
+      ],
+      "button": "Activate",
+      "highlight": false
+    },
+    {
+      "name": "Custom",
+      "price": "on request",
+      "description": "Fully customized solution for your project",
+      "features": [
+        "Exclusive strategy and NDA",
+        "Deep supply chain analysis",
+        "Integration with your ERP/CRM systems",
+        "Visit to Ukraine (by arrangement)",
+        "Any specific tasks by agreement"
       ],
       "button": "Contact Us",
       "highlight": false

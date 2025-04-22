@@ -22,7 +22,7 @@ const FooterContainer = styled.footer`
 const Footer = () => {
   return (
     <FooterContainer>
-      <p>&copy; Consulting & Logistics. All rights reserved.</p>
+      <p>&copy; 2025 Global Trade Ukraine. All rights reserved.</p>
     </FooterContainer>
   );
 };

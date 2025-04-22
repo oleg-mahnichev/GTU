@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import viberIcon from "../../public/icons/viber.png";
-import wechatIcon from "../../public/icons/wechat.png";
-import signalIcon from "../../public/icons/signal.png";
+import viberIcon from "../img/viber.png";
+import wechatIcon from "../img/wechat.png";
+import signalIcon from "../img/signal.png";
 import {
   Wrapper,
   Title,

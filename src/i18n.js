@@ -14,11 +14,15 @@ import headerDe from "../src/locales/de/header.json";
 import footerDe from "../src/locales/de/footer.json";
 import homeDe from "../src/locales/de/home.json";
 import aboutDe from "../src/locales/de/about.json";
+import pricingDe from "../src/locales/de/pricing.json";
+import contactDe from "../src/locales/de/contact.json";
 
 import headerUa from "../src/locales/ua/header.json";
 import footerUa from "../src/locales/ua/footer.json";
 import homeUa from "../src/locales/ua/home.json";
 import aboutUa from "../src/locales/ua/about.json";
+import pricingUa from "../src/locales/ua/pricing.json";
+import contactUa from "../src/locales/ua/contact.json";
 
 import headerEs from "../src/locales/es/header.json";
 import footerEs from "../src/locales/es/footer.json";
@@ -45,6 +49,8 @@ import headerRu from "../src/locales/ru/header.json";
 import footerRu from "../src/locales/ru/footer.json";
 import homeRu from "../src/locales/ru/home.json";
 import aboutRu from "../src/locales/ru/about.json";
+import pricingRu from "../src/locales/ru/pricing.json";
+import contactRu from "../src/locales/ru/contact.json";
 
 // Структура ресурсов
 const resources = {
@@ -60,13 +66,17 @@ const resources = {
         header: headerDe,
         footer: footerDe,
         home: homeDe,
-        about: aboutDe
+        about: aboutDe,
+        pricing: pricingDe,
+        contact: contactDe
     },
     ua: {
         header: headerUa,
         footer: footerUa,
         home: homeUa,
-        about: aboutUa
+        about: aboutUa,
+        pricing: pricingUa,
+        contact: contactUa,
     },
     es: {
         header: headerEs,
@@ -96,7 +106,9 @@ const resources = {
         header: headerRu,
         footer: footerRu,
         home: homeRu,
-        about: aboutRu
+        about: aboutRu,
+        pricing: pricingRu,
+        contact: contactRu
     },
 };
 

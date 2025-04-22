@@ -1,4 +1,3 @@
-// PricingStyles.js
 import styled from "styled-components";
 
 export const PricingWrapper = styled.section`
@@ -28,11 +27,12 @@ export const CardsContainer = styled.div`
   gap: 24px;
   width: 100%;
   max-width: 1200px;
+  align-items: stretch;
 `;
 
 export const Card = styled.div`
-  background: ${({ highlight }) => (highlight ? "#002d72" : "#fff")};
-  color: ${({ highlight }) => (highlight ? "#fff" : "#000")};
+  background: ${({ $highlight }) => ($highlight ? "#002d72" : "#fff")};
+  color: ${({ $highlight }) => ($highlight ? "#fff" : "#000")};
   border-radius: 12px;
   padding: 32px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -40,6 +40,7 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
   transition: transform 0.3s;
+  height: 100%;
 
   &:hover {
     transform: translateY(-4px);
@@ -72,18 +73,18 @@ export const FeaturesList = styled.ul`
     position: relative;
     padding-left: 20px;
 
-   &::before {
-  content: "✔";
-  position: absolute;
-  left: 0;
-  color: ${({ $highlight }) => ($highlight ? "#0f0" : "#007bff")};
-}
+    &::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: ${({ $highlight }) => ($highlight ? "#0f0" : "#007bff")};
+    }
   }
 `;
 
 export const ActionButton = styled.button`
-  background: ${({ highlight }) => (highlight ? "#fff" : "#007bff")};
-  color: ${({ highlight }) => (highlight ? "#002d72" : "#fff")};
+  background: ${({ $highlight }) => ($highlight ? "#fff" : "#007bff")};
+  color: ${({ $highlight }) => ($highlight ? "#002d72" : "#fff")};
   border: none;
   border-radius: 8px;
   padding: 12px 24px;

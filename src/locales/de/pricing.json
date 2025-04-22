@@ -1,0 +1,62 @@
+{
+  "title": "Preispläne",
+  "subtitle": "Wählen Sie das passende Unterstützungsniveau für Ihr Unternehmen. Individuelle Lösungen sind auf Anfrage möglich.",
+  "plans": [
+    {
+      "name": "Start",
+      "price": "€99 / Monat",
+      "description": "Für Einzelunternehmer und Start-ups",
+      "features": [
+        "1 Basisberatung (bis zu 30 Minuten)",
+        "E-Mail-Support und Beantwortung von Fragen",
+        "1 empfohlener Lieferant pro Monat (ohne Prüfung)",
+        "Informationshilfe zur Logistik"
+      ],
+      "button": "Loslegen",
+      "highlight": false
+    },
+    {
+      "name": "Pro",
+      "price": "€399 / Monat",
+      "description": "Geeignet für kleine Unternehmen, die mit der Ukraine arbeiten möchten",
+      "features": [
+        "Bis zu 3 Lieferanten mit Basisprüfung",
+        "Übersetzung und Kommunikation mit ukrainischen Partnern",
+        "Unterstützung bei Verhandlungen und Abwicklung",
+        "Hilfe bei Logistik und Dokumentation",
+        "Bis zu 5 Stunden Beratung"
+      ],
+      "button": "Abonnieren",
+      "highlight": true
+    },
+    {
+      "name": "Business",
+      "price": "€799 / Monat",
+      "description": "Für Unternehmen mit größerem Unterstützungsbedarf",
+      "features": [
+        "Bis zu 5 geprüfte Lieferanten mit Berichten",
+        "Komplette Transaktionsbegleitung",
+        "Persönlicher Projektmanager",
+        "Marktforschung zu Ihrem Produkt",
+        "Unterstützung bei Logistik und Verpackung",
+        "Bis zu 10 Stunden Beratung"
+      ],
+      "button": "Aktivieren",
+      "highlight": false
+    },
+    {
+      "name": "Individuell",
+      "price": "auf Anfrage",
+      "description": "Vollständig maßgeschneiderte Lösung für Ihr Projekt",
+      "features": [
+        "Exklusive Strategie und NDA",
+        "Detaillierte Analyse der Lieferkette",
+        "Integration mit Ihren ERP-/CRM-Systemen",
+        "Reise in die Ukraine (nach Vereinbarung)",
+        "Spezifische Aufgaben nach Absprache"
+      ],
+      "button": "Kontaktieren Sie uns",
+      "highlight": false
+    }
+  ]
+}
