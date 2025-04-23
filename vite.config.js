@@ -5,5 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/GTU/',
   plugins: [react()],
-  json: true,
 })
