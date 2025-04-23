@@ -15,8 +15,6 @@ import Kontakt from "./pages/Contact";
 import { AppContainer, Main, AnimatedPageWrapper } from "./AppStyles";
 import { AnimatePresence } from "framer-motion";
 
-console.log("App.jsx запускается!");
-
 function AnimatedRoutes() {
   const location = useLocation();
 

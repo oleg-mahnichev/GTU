@@ -2,7 +2,7 @@
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
-import logoImage from "../../public/logo.jpg";
+import logoImage from "/logo.jpg";
 import {
   HeaderContainer,
   LogoLink,
