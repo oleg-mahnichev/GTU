@@ -1,0 +1,11 @@
+{
+  "title": "Contáctanos",
+  "subtitle": "¿Tienes una pregunta o quieres empezar a trabajar con nosotros? ¡Contáctanos!",
+  "nameLabel": "Tu nombre",
+  "emailLabel": "Tu correo electrónico",
+  "messageLabel": "Tu mensaje",
+  "submitButton": "Enviar mensaje",
+  "successMessage": "¡Tu mensaje ha sido enviado con éxito!",
+  "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
+  "directContacts": "También puedes contactarnos directamente:"
+}

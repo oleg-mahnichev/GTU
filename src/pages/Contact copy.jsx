@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 import viberIcon from "../img/viber.png";
 import wechatIcon from "../img/wechat.png";
 import signalIcon from "../img/signal.png";
@@ -35,24 +35,9 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    emailjs
-      .send(
-        "service_ji1wzf8", // <- замени на свой ID
-        "template_g4s7fx7", // <- шаблон в EmailJS
-        form, // <- объект с name, email, message
-        "3xb1EN9bRN2nOU-AP" // <- публичный ключ от EmailJS
-      )
-      .then(
-        () => {
-          setStatus("success");
-          setForm({ name: "", email: "", message: "" });
-        },
-        (error) => {
-          console.error("EmailJS Error:", error);
-          setStatus("error");
-        }
-      );
+    console.log("Form submitted:", form);
+    setStatus("success");
+    setForm({ name: "", email: "", message: "" });
   };
 
   return (

@@ -1,0 +1,62 @@
+{
+  "title": "Formules Tarifaires",
+  "subtitle": "Choisissez le niveau de support adapté à votre entreprise. Des solutions personnalisées sont disponibles sur demande.",
+  "plans": [
+    {
+      "name": "Start",
+      "price": "99 € / mois",
+      "description": "Pour les entrepreneurs indépendants et les startups",
+      "features": [
+        "1 consultation de base (jusqu’à 30 minutes)",
+        "Support par email et réponses aux questions",
+        "1 fournisseur recommandé par mois (sans vérification)",
+        "Assistance informative sur la logistique"
+      ],
+      "button": "Commencer",
+      "highlight": false
+    },
+    {
+      "name": "Pro",
+      "price": "399 € / mois",
+      "description": "Pour les petites entreprises débutant avec l’Ukraine",
+      "features": [
+        "Jusqu’à 3 fournisseurs avec vérification de base",
+        "Traduction et communication avec la partie ukrainienne",
+        "Assistance dans les accords et négociations",
+        "Aide à la logistique et à la documentation",
+        "Jusqu’à 5 heures de conseil"
+      ],
+      "button": "Souscrire",
+      "highlight": true
+    },
+    {
+      "name": "Business",
+      "price": "799 € / mois",
+      "description": "Pour les entreprises ayant besoin d’un accompagnement approfondi",
+      "features": [
+        "Jusqu’à 5 fournisseurs vérifiés avec rapports",
+        "Soutien complet aux transactions",
+        "Chef de projet dédié",
+        "Étude de marché adaptée à votre produit",
+        "Aide à la logistique et à l’emballage",
+        "Jusqu’à 10 heures de conseil"
+      ],
+      "button": "Activer",
+      "highlight": false
+    },
+    {
+      "name": "Custom",
+      "price": "sur demande",
+      "description": "Solution entièrement personnalisée pour votre projet",
+      "features": [
+        "Stratégie exclusive et NDA",
+        "Analyse approfondie de la chaîne d’approvisionnement",
+        "Intégration à vos systèmes ERP/CRM",
+        "Visite en Ukraine (sur accord)",
+        "Tâches spécifiques selon accord"
+      ],
+      "button": "Contactez-nous",
+      "highlight": false
+    }
+  ]
+}

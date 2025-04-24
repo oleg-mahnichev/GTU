@@ -9,7 +9,8 @@ import {
   TableHeader,
   TableBody,
   ContentWrapper,
-  TableWrapper, // 👈 добавили обёртку
+  TableWrapper,
+  WarningText, // 👈 добавили обёртку
 } from "./HomeStyles";
 
 import heroBg from "/src/assets/hero_fon1_J-min.jpg";
@@ -30,7 +31,7 @@ const Home = () => {
         <p>{t("intro")}</p>
         <strong>{t("highlight")}</strong>
         <p>{t("example")}</p>
-        <p style={{ color: "red" }}>{t("warning")}</p>
+        <WarningText>{t("warning")}</WarningText>
 
         <h2>{t("tableTitle")}</h2>
         <TableWrapper>

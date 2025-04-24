@@ -131,3 +131,8 @@ export const TableBody = styled.tbody`
     }
   }
 `;
+
+export const WarningText = styled.p`
+  color: red;
+  font-size: 24px;
+`;

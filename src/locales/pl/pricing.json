@@ -1,0 +1,62 @@
+{
+  "title": "Plany cenowe",
+  "subtitle": "Wybierz poziom wsparcia dopasowany do Twojej firmy. Rozwiązania indywidualne dostępne na życzenie.",
+  "plans": [
+    {
+      "name": "Start",
+      "price": "99 € / miesiąc",
+      "description": "Dla jednoosobowych firm i startupów",
+      "features": [
+        "1 podstawowa konsultacja (do 30 minut)",
+        "Wsparcie mailowe i odpowiedzi na pytania",
+        "1 polecany dostawca miesięcznie (bez weryfikacji)",
+        "Pomoc informacyjna w zakresie logistyki"
+      ],
+      "button": "Rozpocznij",
+      "highlight": false
+    },
+    {
+      "name": "Pro",
+      "price": "399 € / miesiąc",
+      "description": "Dla małych firm rozpoczynających współpracę z Ukrainą",
+      "features": [
+        "Do 3 dostawców z podstawową weryfikacją",
+        "Tłumaczenie i komunikacja ze stroną ukraińską",
+        "Wsparcie w transakcjach i negocjacjach",
+        "Pomoc w logistyce i dokumentacji",
+        "Do 5 godzin doradztwa"
+      ],
+      "button": "Subskrybuj",
+      "highlight": true
+    },
+    {
+      "name": "Business",
+      "price": "799 € / miesiąc",
+      "description": "Dla firm potrzebujących kompleksowego wsparcia i pomocy projektowej",
+      "features": [
+        "Do 5 zweryfikowanych dostawców z raportami",
+        "Wsparcie na każdym etapie transakcji",
+        "Dedykowany kierownik projektu",
+        "Badanie rynku dopasowane do Twojego produktu",
+        "Wsparcie w logistyce i pakowaniu",
+        "Do 10 godzin doradztwa"
+      ],
+      "button": "Aktywuj",
+      "highlight": false
+    },
+    {
+      "name": "Custom",
+      "price": "na życzenie",
+      "description": "W pełni dostosowane rozwiązanie dla Twojego projektu",
+      "features": [
+        "Ekskluzywna strategia i NDA",
+        "Dogłębna analiza łańcucha dostaw",
+        "Integracja z systemami ERP/CRM",
+        "Wizyta na Ukrainie (po uzgodnieniu)",
+        "Dowolne zadania zgodnie z ustaleniami"
+      ],
+      "button": "Skontaktuj się",
+      "highlight": false
+    }
+  ]
+}

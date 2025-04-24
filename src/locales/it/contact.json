@@ -1,0 +1,11 @@
+{
+  "title": "Contattaci",
+  "subtitle": "Hai una domanda o vuoi iniziare a collaborare con noi? Mettiti in contatto!",
+  "nameLabel": "Il tuo nome",
+  "emailLabel": "La tua email",
+  "messageLabel": "Il tuo messaggio",
+  "submitButton": "Invia messaggio",
+  "successMessage": "Il tuo messaggio è stato inviato con successo!",
+  "errorMessage": "Qualcosa è andato storto. Per favore riprova.",
+  "directContacts": "Puoi anche contattarci direttamente:"
+}

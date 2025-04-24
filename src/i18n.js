@@ -28,22 +28,30 @@ import headerEs from "../src/locales/es/header.json";
 import footerEs from "../src/locales/es/footer.json";
 import homeEs from "../src/locales/es/home.json";
 import aboutEs from "../src/locales/es/about.json";
+import pricingEs from "../src/locales/es/pricing.json";
+import contactEs from "../src/locales/es/contact.json";
 
 
 import headerIt from "../src/locales/it/header.json";
 import footerIt from "../src/locales/it/footer.json";
 import homeIt from "../src/locales/it/home.json";
 import aboutIt from "../src/locales/it/about.json";
+import pricingIt from "../src/locales/it/pricing.json";
+import contactIt from "../src/locales/it/contact.json";
 
 import headerPl from "../src/locales/pl/header.json";
 import footerPl from "../src/locales/pl/footer.json";
 import homePl from "../src/locales/pl/home.json";
 import aboutPl from "../src/locales/pl/about.json";
+import pricingPl from "../src/locales/pl/pricing.json";
+import contactPl from "../src/locales/pl/contact.json";
 
 import headerFr from "../src/locales/fr/header.json";
 import footerFr from "../src/locales/fr/footer.json";
 import homeFr from "../src/locales/fr/home.json";
 import aboutFr from "../src/locales/fr/about.json";
+import pricingFr from "../src/locales/fr/pricing.json";
+import contactFr from "../src/locales/fr/contact.json";
 
 import headerRu from "../src/locales/ru/header.json";
 import footerRu from "../src/locales/ru/footer.json";
@@ -82,25 +90,33 @@ const resources = {
         header: headerEs,
         footer: footerEs,
         home: homeEs,
-        about: aboutEs
+        about: aboutEs,
+        pricing: pricingEs,
+        contact: contactEs,
     },
     it: {
         header: headerIt,
         footer: footerIt,
         home: homeIt,
-        about: aboutIt
+        about: aboutIt,
+        pricing: pricingIt,
+        contact: contactIt,
     },
     pl: {
         header: headerPl,
         footer: footerPl,
         home: homePl,
-        about: aboutPl
+        about: aboutPl,
+        pricing: pricingPl,
+        contact: contactPl,
     },
     fr: {
         header: headerFr,
         footer: footerFr,
         home: homeFr,
-        about: aboutFr
+        about: aboutFr,
+        pricing: pricingFr,
+        contact: contactFr,
     },
     ru: {
         header: headerRu,

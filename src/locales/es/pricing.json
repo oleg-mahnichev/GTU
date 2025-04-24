@@ -1,0 +1,62 @@
+{
+  "title": "Planes de Precios",
+  "subtitle": "Elige el nivel de soporte que se adapte a tu negocio. Soluciones personalizadas disponibles bajo solicitud.",
+  "plans": [
+    {
+      "name": "Start",
+      "price": "99 € / mes",
+      "description": "Para emprendedores individuales y startups",
+      "features": [
+        "1 consulta básica (hasta 30 minutos)",
+        "Soporte por correo electrónico y respuestas a preguntas",
+        "1 proveedor recomendado al mes (sin verificación)",
+        "Asistencia informativa con la logística"
+      ],
+      "button": "Comenzar",
+      "highlight": false
+    },
+    {
+      "name": "Pro",
+      "price": "399 € / mes",
+      "description": "Para pequeñas empresas que comienzan a trabajar con Ucrania",
+      "features": [
+        "Hasta 3 proveedores con verificación básica",
+        "Traducción y comunicación con la parte ucraniana",
+        "Apoyo en acuerdos y asistencia en negociaciones",
+        "Ayuda con logística y documentación",
+        "Hasta 5 horas de consultoría"
+      ],
+      "button": "Suscribirse",
+      "highlight": true
+    },
+    {
+      "name": "Business",
+      "price": "799 € / mes",
+      "description": "Para empresas que necesitan apoyo profundo y asistencia en proyectos",
+      "features": [
+        "Hasta 5 proveedores verificados con informes",
+        "Soporte completo en acuerdos",
+        "Gestor de proyecto dedicado",
+        "Estudio de mercado adaptado a tu producto",
+        "Asistencia en logística y embalaje",
+        "Hasta 10 horas de consultoría"
+      ],
+      "button": "Activar",
+      "highlight": false
+    },
+    {
+      "name": "Custom",
+      "price": "a consultar",
+      "description": "Solución completamente personalizada para tu proyecto",
+      "features": [
+        "Estrategia exclusiva y NDA",
+        "Análisis profundo de la cadena de suministro",
+        "Integración con tus sistemas ERP/CRM",
+        "Visita a Ucrania (previo acuerdo)",
+        "Tareas específicas según acuerdo"
+      ],
+      "button": "Contáctanos",
+      "highlight": false
+    }
+  ]
+}

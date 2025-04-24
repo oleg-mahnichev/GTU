@@ -1,0 +1,62 @@
+{
+  "title": "Piani Tariffari",
+  "subtitle": "Scegli il livello di supporto più adatto alla tua attività. Soluzioni personalizzate disponibili su richiesta.",
+  "plans": [
+    {
+      "name": "Start",
+      "price": "€99 / mese",
+      "description": "Per imprenditori individuali e startup",
+      "features": [
+        "1 consulenza base (fino a 30 minuti)",
+        "Supporto via email e risposte a domande",
+        "1 fornitore consigliato al mese (senza verifica)",
+        "Assistenza informativa sulla logistica"
+      ],
+      "button": "Inizia ora",
+      "highlight": false
+    },
+    {
+      "name": "Pro",
+      "price": "€399 / mese",
+      "description": "Per piccole imprese che iniziano a lavorare con l'Ucraina",
+      "features": [
+        "Fino a 3 fornitori con verifica di base",
+        "Traduzione e comunicazione con la parte ucraina",
+        "Supporto negli accordi e assistenza nelle trattative",
+        "Aiuto con logistica e documentazione",
+        "Fino a 5 ore di consulenza"
+      ],
+      "button": "Abbonati",
+      "highlight": true
+    },
+    {
+      "name": "Business",
+      "price": "€799 / mese",
+      "description": "Per aziende che necessitano di supporto approfondito e assistenza nei progetti",
+      "features": [
+        "Fino a 5 fornitori verificati con report",
+        "Supporto completo agli accordi",
+        "Project manager dedicato",
+        "Ricerca di mercato su misura per il tuo prodotto",
+        "Assistenza in logistica e imballaggio",
+        "Fino a 10 ore di consulenza"
+      ],
+      "button": "Attiva",
+      "highlight": false
+    },
+    {
+      "name": "Custom",
+      "price": "su richiesta",
+      "description": "Soluzione completamente personalizzata per il tuo progetto",
+      "features": [
+        "Strategia esclusiva e NDA",
+        "Analisi approfondita della catena di fornitura",
+        "Integrazione con i tuoi sistemi ERP/CRM",
+        "Visita in Ucraina (su accordo)",
+        "Attività specifiche concordate"
+      ],
+      "button": "Contattaci",
+      "highlight": false
+    }
+  ]
+}
